@@ -7,7 +7,6 @@ cask "claude-usage-menubar" do
   desc "Claude Code quota, live in the menu bar"
   homepage "https://github.com/djalmaaraujo/claude-usage-menubar"
 
-  depends_on macos: ">= :ventura"
   depends_on arch: :arm64
 
   app "ClaudeUsage.app"
