@@ -1,6 +1,6 @@
 cask "claude-usage-menubar" do
-  version "1.6.3"
-  sha256 "4412b5eefc0bf33c7c6a87d4b3b5b43890cdb08c91772b2d62d67b0bdccaf8b5"
+  version "1.7.0"
+  sha256 "6cd8914478d0bd7b77f5b171dfd2a96270167e825639cde2ed9381452faddd88"
 
   url "https://github.com/djalmaaraujo/claude-usage-menubar/releases/download/v#{version}/ClaudeUsage.app.zip"
   name "Claude Usage"
