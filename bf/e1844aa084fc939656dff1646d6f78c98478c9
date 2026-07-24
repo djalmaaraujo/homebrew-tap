@@ -1,0 +1,19 @@
+Casks/claude-usage-menubar.rb
+  s_003b76e264f5e3::t_43fd6428396456 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "bfe1844aa084fc939656dff1646d6f78c98478c9",
+  "prompts": {},
+  "sessions": {
+    "s_003b76e264f5e3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4145531b-e235-400e-95cc-d094447402ef",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Djalma Araújo <djalma@nossomos.cc>"
+    }
+  }
+}
