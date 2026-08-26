@@ -1,0 +1,20 @@
+Casks/pr-menubar.rb
+  s_637014e7888acb::t_78c58a8844a419 2-6,12,15
+  s_637014e7888acb::t_0ecf4128b3bedd 1,7-11,13-14,16-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "325381ea1bb14e2247f38cbb2aed7f8b9e080534",
+  "prompts": {},
+  "sessions": {
+    "s_637014e7888acb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4a6964a1-62aa-41f1-a88c-78cd203ff4c3",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
