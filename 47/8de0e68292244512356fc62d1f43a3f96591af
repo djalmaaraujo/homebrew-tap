@@ -1,0 +1,19 @@
+Casks/todo-menubar.rb
+  s_92b197122590d1::t_8d9b54b55d6785 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "478de0e68292244512356fc62d1f43a3f96591af",
+  "prompts": {},
+  "sessions": {
+    "s_92b197122590d1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4aecc2b5-ba4c-4ebf-8182-8855bac4c5d6",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Djalma Araújo <djalma@nossomos.cc>"
+    }
+  }
+}
