@@ -8,14 +8,13 @@ cask "todo-menubar" do
   homepage "https://github.com/djalmaaraujo/todo-menubar"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "TodoMenubar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{staged_path}/TodoMenubar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{staged_path}}/TodoMenubar.app"]
   end
 
-  zap trash: [
-    "~/Library/Preferences/com.djalma.todobar.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.djalma.todobar.plist"
 end
