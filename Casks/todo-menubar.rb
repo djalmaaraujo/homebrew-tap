@@ -1,6 +1,6 @@
 cask "todo-menubar" do
-  version "1.0.0"
-  sha256 "bc5bf55e352f03fdd7f30faa2e3ae307e9e7f20d8e0cd4b65b9a254fe4850789"
+  version "1.1.0"
+  sha256 "c69918aa7b5279bf7fc47e3216d52be3479c75f65e1ba7817c22fbd107422de0"
 
   url "https://github.com/djalmaaraujo/todo-menubar/releases/download/v#{version}/TodoMenubar.app.zip"
   name "Todo Menubar"
