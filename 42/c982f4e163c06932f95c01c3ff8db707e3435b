@@ -1,0 +1,25 @@
+Casks/claude-usage-menubar.rb
+  s_e1219ff26cf34b::t_de159e1a57877d 15-16,19
+  s_e1219ff26cf34b::t_98fb0cc31cfd57 11
+Casks/pr-menubar.rb
+  s_e1219ff26cf34b::t_1a910b84f6a466 15-16,19
+  s_e1219ff26cf34b::t_5d65c254de1dd1 11
+Casks/piper.rb
+  s_e1219ff26cf34b::t_5c76130d220fb4 37-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "42c982f4e163c06932f95c01c3ff8db707e3435b",
+  "prompts": {},
+  "sessions": {
+    "s_e1219ff26cf34b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e84950a2-49c3-4760-9997-0737a7d627ff",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Djalma Araújo <djalma@nossomos.cc>"
+    }
+  }
+}
