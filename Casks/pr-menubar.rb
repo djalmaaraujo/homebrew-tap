@@ -8,14 +8,13 @@ cask "pr-menubar" do
   homepage "https://github.com/djalmaaraujo/pr-menubar"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "PRMenubar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{staged_path}/PRMenubar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{staged_path}}/PRMenubar.app"], must_succeed: false
   end
 
-  zap trash: [
-    "~/Library/Preferences/com.djalma.prbar.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.djalma.prbar.plist"
 end

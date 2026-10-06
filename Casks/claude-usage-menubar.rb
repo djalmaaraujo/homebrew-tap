@@ -8,14 +8,13 @@ cask "claude-usage-menubar" do
   homepage "https://github.com/djalmaaraujo/claude-usage-menubar"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "ClaudeUsage.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{staged_path}/ClaudeUsage.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{staged_path}}/ClaudeUsage.app"], must_succeed: false
   end
 
-  zap trash: [
-    "~/Library/Preferences/com.djalma.claudeusage.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.djalma.claudeusage.plist"
 end
